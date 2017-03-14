@@ -6,8 +6,7 @@ var events = require('../models/events');
 function index (request, response) {
   var now = new Date();
   var contextData = {
-    'title': 'relax socialize visit party',
-    'tagline': 'rsvp!',
+    'title': 'We Value Talent',
     'events': []
    
    /** 'time': currentTime */

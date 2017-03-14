@@ -36,7 +36,7 @@ var allowedDateInfo = {
 function listEvents(request, response) {
   var now = new Date();
   var contextData = {
-    'title': 'RSVPd',
+    'title': 'We Value Talent',
     'events': []
    
    /** 'time': currentTime */

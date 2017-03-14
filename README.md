@@ -1,22 +1,10 @@
-# MGT 645 Project
+# Flair Platform Demo
 
-This is the starter project for MGT 645. You'll fork this
-code in order to get started with your project. 
+Testing flair platform
 
 ## Getting started
 
-For the following instructions, we assume that you are logged
-into the virtual machine you are using for MGT 645. 
-
-To clone the repository, issue you'll use the following git command.
-
-	git clone https://github.com/yale-mgt-656/mgt656-spring-2015-project.git
-
-Then, you can do 
-
-	cd mgt656-project
-
-Then, you'll need to install the dependencies
+You'll need to install the dependencies
 
 	npm install
 
@@ -29,17 +17,6 @@ program, which is a nice way of running node and then restarting
 it when your files change. Every time your files change, it will
 also run [http://www.jshint.com/docs/](JSHint) to check your
 JavaScript code for bad practices.
-
-## Test your code
-
-Type the following command in order to run the
-[BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)
-tests.
-
-	./node_modules/.bin/mocha
-
-That will run all the tests in `test/tests.js`.
-
 
 ## What we're using
 

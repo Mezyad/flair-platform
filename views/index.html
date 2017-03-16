@@ -16,7 +16,7 @@
     if (document.getElementById) { window.onload = swap };
 function swap() {
 var numimages=2;
-rndimg = new Array("images/footballcourt.png", "images/home1.jpg");
+rndimg = new Array("images/footballcourt.png", "images/footballcourt2.png");
 x=(Math.floor(Math.random()*numimages));
 randomimage=(rndimg[x]);
 document.getElementById("randimage").style.backgroundImage = "url("+ randomimage +")";
@@ -26,14 +26,37 @@ document.getElementById("randimage").style.backgroundImage = "url("+ randomimage
 <body id="randimage">
 <div class="home">
      <div class="homecontainer">
+         
+         <div class="jumbotron" style="margin-top:60px; background-color: rgba(0,0,0,0.4);">
+        <div class="container">
+            <h1>We Value Talent</h1>
+            <p>“When financial historians look back and ask why it took Wall Street so long to create the first public stock market that trades in professional athletes, they will see ours as an age of creative ferment.”</p>
+            <p>Michael Lewis</p>
+            <div class="item"><img src="/images/NFL.jpg" width="220" height="180" id="gentle-meerkat-headshot"></div>
+            <div class="item"><img src="/images/NBA.jpg" width="220" height="180" id="brainy-dinosaur-headshot"></div>
+            <div class="item"><img src="/images/soccer.jpg" width="220" height="180" id="wonderful-pigeon-headshot"></div>
+            <div class="item"><img src="/images/MLB.jpg" width="220" height="180" id="gleaming-dinosaur-headshot"></div>
+
+       
+            <br><br>
+            
+        </div>
+    </div>
+ <!--<TEMP delete
         <h1 class="sitetitle">{{ title }}</h1><br>
         <div class="row mainpage">
             {% include "fragments/events-list.html" %}
+            
+<!--<TEMP delete>--> 
+<!--<TEMP delete
         </div>
           <div class="row">
           <a class="btn btn-primary btn-lg" href="/events" role="button">Talent Sign Up</a></p><br>
-    </div>
+    </div> >--> 
   </div>
+</div>
+
+  
 </body>
   
 {% endblock %}
